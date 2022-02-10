@@ -7,7 +7,6 @@ D:\Swapna\Eclipse\YourStoreAutomation\src\test\java\pages\HomePage.java
 D:\Swapna\Eclipse\YourStoreAutomation\src\test\java\testcases\TC001Register.java
 D:\Swapna\Eclipse\YourStoreAutomation\src\test\java\testcases\TC002Login.java
 D:\Swapna\Eclipse\YourStoreAutomation\src\test\java\pages\RegisterPage.java
-D:\Swapna\Eclipse\YourStoreAutomation\src\test\java\testcases\TC003LoginNegativeTest.java
 D:\Swapna\Eclipse\YourStoreAutomation\src\test\java\utilities\ExtentManager.java
 D:\Swapna\Eclipse\YourStoreAutomation\src\test\java\base\CustomListeners.java
 D:\Swapna\Eclipse\YourStoreAutomation\src\test\java\testcases\TC004AddCart.java
