@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="AddToCart Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="10.157">
+  <properties />
+  
+  
+            <testcase name="clickCart" time="10.157" classname="testcases.TC004AddCart" />
+      
+</testsuite>

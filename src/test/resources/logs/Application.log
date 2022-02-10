@@ -1,0 +1,17 @@
+10/02/2022 09:46:48 qaLogger loading the config property file
+10/02/2022 09:46:52 qaLogger chrome browser launched
+10/02/2022 09:46:54 qaLogger User Registration test started
+10/02/2022 09:46:54 qaLogger My Account Button Clicked
+10/02/2022 09:46:54 qaLogger Register Button Clicked
+10/02/2022 09:46:55 qaLogger User Details Entered
+10/02/2022 09:46:56 qaLogger User Registration test completed
+10/02/2022 09:46:56 qaLogger Login test started
+10/02/2022 09:46:56 qaLogger My Account Button Clicked
+10/02/2022 09:46:57 qaLogger Login Button Clicked
+10/02/2022 09:46:57 qaLogger Username and password Entered
+10/02/2022 09:46:57 qaLogger Login test completed
+10/02/2022 09:46:59 qaLogger BrowseProduct test started
+10/02/2022 09:46:59 qaLogger Selects Desktop
+10/02/2022 09:46:59 qaLogger Selects Show all Desktop
+10/02/2022 09:46:59 qaLogger Product Selected
+10/02/2022 09:47:01 qaLogger BrowseProduct test completed

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="YourStoreAutomationRegressionTests" duration-ms="7120" started-at="2022-02-10T09:46:54 EST" finished-at="2022-02-10T09:47:01 EST">
+    <groups>
+    </groups>
+    <test name="Register Test" duration-ms="2341" started-at="2022-02-10T09:46:54 EST" finished-at="2022-02-10T09:46:56 EST">
+      <class name="testcases.TC001Register">
+        <test-method status="PASS" signature="registerUser()[pri:0, instance:testcases.TC001Register@15d9bc04]" name="registerUser" duration-ms="2057" started-at="2022-02-10T09:46:54 EST" finished-at="2022-02-10T09:46:56 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerUser -->
+      </class> <!-- testcases.TC001Register -->
+    </test> <!-- Register Test -->
+    <test name="Login Test" duration-ms="2510" started-at="2022-02-10T09:46:56 EST" finished-at="2022-02-10T09:46:59 EST">
+      <class name="testcases.TC002Login">
+        <test-method status="PASS" signature="verifyLogin()[pri:1, instance:testcases.TC002Login@279ad2e3]" name="verifyLogin" duration-ms="1256" started-at="2022-02-10T09:46:56 EST" finished-at="2022-02-10T09:46:57 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="verifyInvalidLogin()[pri:2, instance:testcases.TC002Login@279ad2e3]" name="verifyInvalidLogin" duration-ms="1168" started-at="2022-02-10T09:46:57 EST" finished-at="2022-02-10T09:46:59 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+      </class> <!-- testcases.TC002Login -->
+    </test> <!-- Login Test -->
+    <test name="Browse Product Test" duration-ms="2236" started-at="2022-02-10T09:46:59 EST" finished-at="2022-02-10T09:47:01 EST">
+      <class name="testcases.TC005BrowseProduct">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC005BrowseProduct@7fe8ea47]" name="init" is-config="true" duration-ms="5359" started-at="2022-02-10T09:46:48 EST" finished-at="2022-02-10T09:46:54 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="browseProduct()[pri:0, instance:testcases.TC005BrowseProduct@7fe8ea47]" name="browseProduct" duration-ms="2203" started-at="2022-02-10T09:46:59 EST" finished-at="2022-02-10T09:47:01 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browseProduct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC005BrowseProduct@7fe8ea47]" name="tearDown" is-config="true" duration-ms="752" started-at="2022-02-10T09:47:01 EST" finished-at="2022-02-10T09:47:02 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.TC005BrowseProduct -->
+    </test> <!-- Browse Product Test -->
+  </suite> <!-- YourStoreAutomationRegressionTests -->
+</testng-results>

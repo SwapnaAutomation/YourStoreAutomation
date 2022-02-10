@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="YourStoreAutomationRegressionTests">
+<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="base.CustomListeners" />
+
+	</listeners>
+ 
+  <test name="Register Test">
+		<classes>
+			<class name="testcases.TC001Register" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Login Test">
+		<classes>
+			<class name="testcases.TC002Login" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Browse Product Test">
+		<classes>
+			<class name="testcases.TC005BrowseProduct" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- YourStoreAutomationRegressionTests -->

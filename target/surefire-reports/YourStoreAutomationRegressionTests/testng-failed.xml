@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [YourStoreAutomationRegressionTests]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="base.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" verbose="0" name="AddToCart Test(failed)">
+    <classes>
+      <class name="testcases.TC004AddCart">
+        <methods>
+          <include name="tearDown"/>
+          <include name="AddToCart"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- testcases.TC004AddCart -->
+    </classes>
+  </test> <!-- AddToCart Test(failed) -->
+</suite> <!-- Failed suite [YourStoreAutomationRegressionTests] -->
