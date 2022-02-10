@@ -9,7 +9,12 @@ import com.relevantcodes.extentreports.ExtentReports;
 
 
 
+
+
+
+
 public class ExtentManager {
+	
 	
 	private static ExtentReports extent;
 	

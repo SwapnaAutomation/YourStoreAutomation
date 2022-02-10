@@ -47,6 +47,7 @@
 		</dependency>
 
 
+
 		<!-- https://mvnrepository.com/artifact/com.google.inject/guice -->
 		<dependency>
 			<groupId>com.google.inject</groupId>
@@ -95,7 +96,7 @@
 				<configuration>
 					<testFailureIgnore> false </testFailureIgnore>
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/runner/regression.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/runner/functional.xml</suiteXmlFile>
 					</suiteXmlFiles>
 				</configuration>
 

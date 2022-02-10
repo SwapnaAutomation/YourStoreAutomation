@@ -1,45 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="YourStoreAutomationRegressionTests" duration-ms="7431" started-at="2022-02-10T15:30:27 EST" finished-at="2022-02-10T15:30:34 EST">
+  <suite name="FunctionalTests" duration-ms="3413" started-at="2022-02-10T18:11:01 EST" finished-at="2022-02-10T18:11:05 EST">
     <groups>
     </groups>
-    <test name="Register Test" duration-ms="2381" started-at="2022-02-10T15:30:27 EST" finished-at="2022-02-10T15:30:29 EST">
-      <class name="testcases.TC001Register">
-        <test-method status="PASS" signature="registerUser()[pri:0, instance:testcases.TC001Register@15d9bc04]" name="registerUser" duration-ms="2102" started-at="2022-02-10T15:30:27 EST" finished-at="2022-02-10T15:30:29 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- registerUser -->
-      </class> <!-- testcases.TC001Register -->
-    </test> <!-- Register Test -->
-    <test name="Login Test" duration-ms="2632" started-at="2022-02-10T15:30:29 EST" finished-at="2022-02-10T15:30:32 EST">
-      <class name="testcases.TC002Login">
-        <test-method status="PASS" signature="verifyLogin()[pri:1, instance:testcases.TC002Login@279ad2e3]" name="verifyLogin" duration-ms="1298" started-at="2022-02-10T15:30:29 EST" finished-at="2022-02-10T15:30:31 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="verifyInvalidLogin()[pri:2, instance:testcases.TC002Login@279ad2e3]" name="verifyInvalidLogin" duration-ms="1229" started-at="2022-02-10T15:30:31 EST" finished-at="2022-02-10T15:30:32 EST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyInvalidLogin -->
-      </class> <!-- testcases.TC002Login -->
-    </test> <!-- Login Test -->
-    <test name="Browse Product Test" duration-ms="2386" started-at="2022-02-10T15:30:32 EST" finished-at="2022-02-10T15:30:34 EST">
-      <class name="testcases.TC005BrowseProduct">
-        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC005BrowseProduct@7fe8ea47]" name="init" is-config="true" duration-ms="4583" started-at="2022-02-10T15:30:22 EST" finished-at="2022-02-10T15:30:27 EST">
+    <test name="Login Test" duration-ms="3413" started-at="2022-02-10T18:11:01 EST" finished-at="2022-02-10T18:11:05 EST">
+      <class name="testcases.TC003LoginTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC003LoginTest@15d9bc04]" name="init" is-config="true" duration-ms="4621" started-at="2022-02-10T18:10:57 EST" finished-at="2022-02-10T18:11:01 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="browseProduct()[pri:0, instance:testcases.TC005BrowseProduct@7fe8ea47]" name="browseProduct" duration-ms="2347" started-at="2022-02-10T15:30:32 EST" finished-at="2022-02-10T15:30:34 EST">
+        <test-method status="PASS" signature="verifyLogin()[pri:1, instance:testcases.TC003LoginTest@15d9bc04]" name="verifyLogin" duration-ms="1812" started-at="2022-02-10T18:11:01 EST" finished-at="2022-02-10T18:11:03 EST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- browseProduct -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC005BrowseProduct@7fe8ea47]" name="tearDown" is-config="true" duration-ms="761" started-at="2022-02-10T15:30:34 EST" finished-at="2022-02-10T15:30:35 EST">
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="verifyInvalidLogin()[pri:2, instance:testcases.TC003LoginTest@15d9bc04]" name="verifyInvalidLogin" duration-ms="1232" started-at="2022-02-10T18:11:03 EST" finished-at="2022-02-10T18:11:05 EST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC003LoginTest@15d9bc04]" name="tearDown" is-config="true" duration-ms="745" started-at="2022-02-10T18:11:05 EST" finished-at="2022-02-10T18:11:05 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testcases.TC005BrowseProduct -->
-    </test> <!-- Browse Product Test -->
-  </suite> <!-- YourStoreAutomationRegressionTests -->
+      </class> <!-- testcases.TC003LoginTest -->
+    </test> <!-- Login Test -->
+  </suite> <!-- FunctionalTests -->
 </testng-results>
