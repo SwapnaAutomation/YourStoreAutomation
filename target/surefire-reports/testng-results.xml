@@ -2,40 +2,40 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="YourStoreAutomationRegressionTests" duration-ms="8641" started-at="2022-02-10T11:50:24 EST" finished-at="2022-02-10T11:50:33 EST">
+  <suite name="YourStoreAutomationRegressionTests" duration-ms="7218" started-at="2022-02-10T15:01:42 EST" finished-at="2022-02-10T15:01:49 EST">
     <groups>
     </groups>
-    <test name="Register Test" duration-ms="3097" started-at="2022-02-10T11:50:24 EST" finished-at="2022-02-10T11:50:27 EST">
+    <test name="Register Test" duration-ms="2280" started-at="2022-02-10T15:01:42 EST" finished-at="2022-02-10T15:01:44 EST">
       <class name="testcases.TC001Register">
-        <test-method status="PASS" signature="registerUser()[pri:0, instance:testcases.TC001Register@61d47554]" name="registerUser" duration-ms="2651" started-at="2022-02-10T11:50:24 EST" finished-at="2022-02-10T11:50:27 EST">
+        <test-method status="PASS" signature="registerUser()[pri:0, instance:testcases.TC001Register@61d47554]" name="registerUser" duration-ms="2003" started-at="2022-02-10T15:01:42 EST" finished-at="2022-02-10T15:01:44 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerUser -->
       </class> <!-- testcases.TC001Register -->
     </test> <!-- Register Test -->
-    <test name="Login Test" duration-ms="3119" started-at="2022-02-10T11:50:27 EST" finished-at="2022-02-10T11:50:30 EST">
+    <test name="Login Test" duration-ms="2589" started-at="2022-02-10T15:01:44 EST" finished-at="2022-02-10T15:01:47 EST">
       <class name="testcases.TC002Login">
-        <test-method status="PASS" signature="verifyLogin()[pri:1, instance:testcases.TC002Login@4206a205]" name="verifyLogin" duration-ms="1619" started-at="2022-02-10T11:50:27 EST" finished-at="2022-02-10T11:50:29 EST">
+        <test-method status="PASS" signature="verifyLogin()[pri:1, instance:testcases.TC002Login@4206a205]" name="verifyLogin" duration-ms="1288" started-at="2022-02-10T15:01:44 EST" finished-at="2022-02-10T15:01:45 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogin -->
-        <test-method status="PASS" signature="verifyInvalidLogin()[pri:2, instance:testcases.TC002Login@4206a205]" name="verifyInvalidLogin" duration-ms="1367" started-at="2022-02-10T11:50:29 EST" finished-at="2022-02-10T11:50:30 EST">
+        <test-method status="PASS" signature="verifyInvalidLogin()[pri:2, instance:testcases.TC002Login@4206a205]" name="verifyInvalidLogin" duration-ms="1197" started-at="2022-02-10T15:01:45 EST" finished-at="2022-02-10T15:01:47 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyInvalidLogin -->
       </class> <!-- testcases.TC002Login -->
     </test> <!-- Login Test -->
-    <test name="Browse Product Test" duration-ms="2368" started-at="2022-02-10T11:50:30 EST" finished-at="2022-02-10T11:50:33 EST">
+    <test name="Browse Product Test" duration-ms="2263" started-at="2022-02-10T15:01:47 EST" finished-at="2022-02-10T15:01:49 EST">
       <class name="testcases.TC005BrowseProduct">
-        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC005BrowseProduct@4d826d77]" name="init" is-config="true" duration-ms="5998" started-at="2022-02-10T11:50:18 EST" finished-at="2022-02-10T11:50:24 EST">
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.TC005BrowseProduct@4d826d77]" name="init" is-config="true" duration-ms="6002" started-at="2022-02-10T15:01:36 EST" finished-at="2022-02-10T15:01:42 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method status="PASS" signature="browseProduct()[pri:0, instance:testcases.TC005BrowseProduct@4d826d77]" name="browseProduct" duration-ms="2316" started-at="2022-02-10T11:50:30 EST" finished-at="2022-02-10T11:50:33 EST">
+        <test-method status="PASS" signature="browseProduct()[pri:0, instance:testcases.TC005BrowseProduct@4d826d77]" name="browseProduct" duration-ms="2219" started-at="2022-02-10T15:01:47 EST" finished-at="2022-02-10T15:01:49 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browseProduct -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC005BrowseProduct@4d826d77]" name="tearDown" is-config="true" duration-ms="833" started-at="2022-02-10T11:50:33 EST" finished-at="2022-02-10T11:50:34 EST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.TC005BrowseProduct@4d826d77]" name="tearDown" is-config="true" duration-ms="752" started-at="2022-02-10T15:01:49 EST" finished-at="2022-02-10T15:01:50 EST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
