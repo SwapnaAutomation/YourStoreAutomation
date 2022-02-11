@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="2.859">
+           time="3.112">
   <properties />
   
   
-            <testcase name="verifyLogin" time="1.459" classname="testcases.TC002Login" />
-                <testcase name="verifyInvalidLogin" time="1.400" classname="testcases.TC002Login" />
+            <testcase name="verifyInvalidLogin" time="1.497" classname="testcases.TC002Login" />
+                <testcase name="verifyLogin" time="1.615" classname="testcases.TC002Login" />
       
 </testsuite>

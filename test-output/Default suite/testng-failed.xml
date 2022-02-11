@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.TC004AddCart">
+      <class name="testcases.TC002Login">
         <methods>
           <include name="tearDown"/>
+          <include name="verifyLogin" invocation-numbers="0"/>
           <include name="init"/>
-          <include name="clickCart"/>
         </methods>
-      </class> <!-- testcases.TC004AddCart -->
+      </class> <!-- testcases.TC002Login -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

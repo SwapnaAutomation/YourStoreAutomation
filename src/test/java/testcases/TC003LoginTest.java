@@ -1,16 +1,22 @@
 package testcases;
 
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import base.BaseClass;
 import pages.HomePage;
 import pages.LoginPage;
+import utilities.ExcelReader;
 
 public class TC003LoginTest extends BaseClass {
 
-	@Test(priority = 1)
-	public void verifyLogin() {
+	@DataProvider(name="logindata")
+	public Object[][] getLoginData() {
+		return ExcelReader.getTestData("login");
+	}
+	@Test(dataProvider = "logindata")
+	public void verifyLogin(String un,String pwd) {
 
 		HomePage hp = new HomePage(driver);
 
@@ -20,7 +26,7 @@ public class TC003LoginTest extends BaseClass {
 
 		LoginPage lp = new LoginPage(driver);
 
-		lp.doLogin("swda@gmail.com", "sw@12");
+		lp.doLogin(un,pwd);
 
 		String actual = driver.getTitle();
 		System.out.println(actual);
@@ -30,7 +36,7 @@ public class TC003LoginTest extends BaseClass {
 
 	}
 
-	@Test(priority = 2)
+	@Test
 	public void verifyInvalidLogin() throws InterruptedException {
 
 		HomePage hp = new HomePage(driver);

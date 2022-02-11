@@ -1,37 +1,37 @@
-23:19:35,332 DEBUG qaLogger:38 - loading the config property file
-23:19:38,110 DEBUG qaLogger:46 - chrome browser launched
-23:19:39,222  INFO qaLogger:18 - User Registration test started
-23:19:39,262  INFO qaLogger:22 - My Account Button Clicked
-23:19:39,710  INFO qaLogger:27 - Register Button Clicked
-23:19:40,331  INFO qaLogger:33 - User Details Entered
-23:19:41,411  INFO qaLogger:41 - User Registration test completed
-23:19:41,433 DEBUG freemarker.cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-23:19:41,433 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-23:19:41,435 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-23:19:41,436 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-23:19:41,437 DEBUG freemarker.cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Satya/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-23:19:41,750  INFO qaLogger:17 - Login test started
-23:19:41,830  INFO qaLogger:23 - My Account Button Clicked
-23:19:42,291  INFO qaLogger:27 - Login Button Clicked
-23:19:42,295  INFO qaLogger:32 - Username and password Entered
-23:19:43,207  INFO qaLogger:42 - Login test completed
-23:19:43,209 DEBUG freemarker.cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-23:19:43,210 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-23:19:43,211 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-23:19:43,211 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-23:19:43,211 DEBUG freemarker.cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Satya/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-23:19:44,660 DEBUG freemarker.cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-23:19:44,661 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-23:19:44,662 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-23:19:44,662 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-23:19:44,662 DEBUG freemarker.cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Satya/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
-23:19:44,718  INFO qaLogger:14 - BrowseProduct test started
-23:19:44,719  INFO qaLogger:18 - Selects Desktop
-23:19:44,814  INFO qaLogger:22 - Selects Show all Desktop
-23:19:45,425  INFO qaLogger:26 - Product Selected
-23:19:46,958  INFO qaLogger:30 - BrowseProduct test completed
-23:19:46,960 DEBUG freemarker.cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
-23:19:46,960 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
-23:19:46,961 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
-23:19:46,961 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
-23:19:46,962 DEBUG freemarker.cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Satya/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+10:32:47,006 DEBUG qaLogger:38 - loading the config property file
+10:32:49,310 DEBUG qaLogger:46 - chrome browser launched
+10:32:51,074  INFO qaLogger:20 - User Registration test started
+10:32:51,123  INFO qaLogger:24 - My Account Button Clicked
+10:32:51,356  INFO qaLogger:29 - Register Button Clicked
+10:32:52,323  INFO qaLogger:36 - User Details Entered
+10:32:53,407  INFO qaLogger:45 - User Registration test completed
+10:32:53,431 DEBUG freemarker.cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+10:32:53,432 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+10:32:53,433 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+10:32:53,434 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+10:32:53,434 DEBUG freemarker.cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Satya/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+10:32:54,194  INFO qaLogger:25 - Login test started
+10:32:54,268  INFO qaLogger:31 - My Account Button Clicked
+10:32:54,816  INFO qaLogger:35 - Login Button Clicked
+10:32:54,835  INFO qaLogger:41 - Username and password Entered
+10:32:55,809  INFO qaLogger:51 - Login test completed
+10:32:55,811 DEBUG freemarker.cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+10:32:55,812 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+10:32:55,812 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+10:32:55,812 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+10:32:55,813 DEBUG freemarker.cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Satya/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+10:32:57,355 DEBUG freemarker.cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+10:32:57,357 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+10:32:57,357 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+10:32:57,358 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+10:32:57,359 DEBUG freemarker.cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Satya/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"
+10:32:57,411  INFO qaLogger:16 - BrowseProduct test started
+10:32:57,412  INFO qaLogger:20 - Selects Desktop
+10:32:57,515  INFO qaLogger:25 - Selects Show all Desktop
+10:32:58,773  INFO qaLogger:30 - Product Selected
+10:33:00,864  INFO qaLogger:34 - BrowseProduct test completed
+10:33:00,866 DEBUG freemarker.cache:45 - Couldn't find template in cache for "Extent.ftl"("en_US", UTF-8, parsed); will try to load it.
+10:33:00,866 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en_US.ftl"): Not found
+10:33:00,867 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent_en.ftl"): Not found
+10:33:00,868 DEBUG freemarker.cache:45 - TemplateLoader.findTemplateSource("Extent.ftl"): Found
+10:33:00,868 DEBUG freemarker.cache:45 - Loading template for "Extent.ftl"("en_US", UTF-8, parsed) from "jar:file:/C:/Users/Satya/.m2/repository/com/relevantcodes/extentreports/2.41.2/extentreports-2.41.2.jar!/com/relevantcodes/extentreports/view/Extent.ftl"

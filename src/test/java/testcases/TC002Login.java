@@ -1,6 +1,9 @@
 package testcases;
 
+import java.util.concurrent.TimeUnit;
+
 import org.testng.Assert;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
 import com.relevantcodes.extentreports.LogStatus;
@@ -8,11 +11,16 @@ import com.relevantcodes.extentreports.LogStatus;
 import base.BaseClass;
 import pages.HomePage;
 import pages.LoginPage;
+import utilities.ExcelReader;
 
 public class TC002Login extends BaseClass {
-
-	@Test(priority = 1)
-	public void verifyLogin() {
+	
+	@DataProvider(name="logindata")
+	public Object[][] getLoginData() {
+		return ExcelReader.getTestData("login");
+	}
+	@Test(dataProvider = "logindata")
+	public void verifyLogin(String un,String pwd) {
 
 		app_logs.info("Login test started");
 		test.log(LogStatus.INFO, "Login test started");
@@ -26,12 +34,13 @@ public class TC002Login extends BaseClass {
 		hp.doClickLogin();
 		app_logs.info("Login Button Clicked");
 		test.log(LogStatus.INFO, "Login Button Clicked");
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
 		LoginPage lp = new LoginPage(driver);
 
 		app_logs.info("Username and password Entered");
 		test.log(LogStatus.INFO, "Username and password Entered");
-		lp.doLogin("swda@gmail.com", "sw@12");
+		lp.doLogin(un,pwd);
 
 		String actual = driver.getTitle();
 		System.out.println(actual);

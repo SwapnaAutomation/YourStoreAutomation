@@ -1,5 +1,7 @@
 package testcases;
 
+import java.util.concurrent.TimeUnit;
+
 import org.testng.Assert;
 
 import org.testng.annotations.Test;
@@ -27,13 +29,15 @@ public class TC001Register extends BaseClass {
 		app_logs.info("Register Button Clicked");
 		test.log(LogStatus.INFO, "Register Button Clicked");
 		hp.doClickRegister();
-
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		
 		RegisterPage rp = new RegisterPage(driver);
 
 		app_logs.info("User Details Entered");
 		test.log(LogStatus.INFO, "User Details Entered");
 		rp.doRegister("xyz", "yyz", "xxxx@gmail.com", "123456789", "xyz@12", "xyz@12");
 
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		String actual = driver.getTitle();
 		String expected = "Register Account";
 
