@@ -53,8 +53,10 @@ public class BaseClass {
 						System.getProperty("user.dir") + "\\src\\test\\resources\\executables\\MicrosoftWebDriver.exe");
 				driver = new EdgeDriver();
 			}
+			
+			String url= config.getProperty("testsiteURL");
 
-			driver.get(config.getProperty("testsiteURL"));
+			driver.get(url);
 			driver.manage().window().maximize();
 
 			// Global implicit Wait
